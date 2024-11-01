@@ -3,16 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Tour</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>To-Do List</h1>
-        <input type="text" id="taskInput" placeholder="Enter a new task">
-        <button id="addTaskBtn">Add Task</button>
-        <ul id="taskList"></ul>
+    <div class="main">
+        <div class="d1">
+            <p class="f">Travelista Tours</p>
+            <p class="f1">Travel is the only purchase that ensures in ways<br> beyond material wealth</p>
+        </div>
+        <div class="d2">
+            <h1>Welcome</h1>
+            <p>Login with Email</p><br><br><br>
+            <form action="#">
+                <div class="input-group">
+                    <fieldset>
+                    <legend for="email">Email</legend>
+                    <i class="fa-regular fa-envelope"></i> xyz@gmail.com
+                </fieldset></div>
+                <div class="input-group">
+                    <fieldset>
+                    <legend for="password">Password</legend>
+                    <i class="fa-solid fa-lock"></i><b> ...........</b></fieldset>
+                </div>
+            <p class="l">Forget your password?</p>
+            <button class="Lo">Login</button>
+            </form>
+            <p>------------OR------------</p>
+            <button><i class="fa-brands fa-google" id="g"></i></button>
+           <button><i class="fa-brands fa-facebook" ></i></button>
+           <button><i class="fa-brands fa-apple"></i></button>
+           <p>Don't have any account?<b>Register Now</b></p>
+        </div>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
